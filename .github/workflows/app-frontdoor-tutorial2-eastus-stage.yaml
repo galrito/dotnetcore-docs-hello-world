@@ -44,5 +44,5 @@ jobs:
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
     
     - name: logout
-      run |
+      run: |
         az logout
